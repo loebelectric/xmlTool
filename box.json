@@ -1,0 +1,14 @@
+{
+    "name":"xmlTool",
+    "version":"1.0",
+    "author":"Jeff Stevens",
+    "slug":"xmlTool",
+    "type":"modules",
+    "keywords":[
+        "casting",
+        "converter"
+    ],
+    "installPaths":{
+        "xmlTool":"modules"
+    }
+}
