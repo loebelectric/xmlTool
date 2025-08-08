@@ -18,7 +18,7 @@ component
           .to( "#moduleMapping#.models.formatter" )
           .asSingleton()
         binder.mapDirectory(
-          packagePath = "#moduleMapping#",
+          packagePath = "#moduleMapping.replace('/','.', 'all').listChangeDelims('.','.')#",
           namespace = "@formatter"
           );
       }
